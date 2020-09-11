@@ -16,15 +16,15 @@ public class Trainer {
         getToSpeak(a);
 
         Duck d2 = (Duck) a; // downcasting
-<<<<<<< HEAD:src/main/java/Trainer.java
-        train(new Duck());
+
+        //train(new Duck());
         // train(new Parrot());
        // Animal a2 = new Animal();
         //Bird b2 = new Bird();
-=======
+
         train(new Duck("Daisy"));
         // train(new circus.animal.Parrot());
->>>>>>> Upstream/master:src/main/java/circus/Trainer.java
+
     }
 
     private static void getToSpeak(Animal animal) {
